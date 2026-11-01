@@ -15,7 +15,7 @@ module spi_slave_rx(
     reg [6:0] shift;
     reg [2:0] bit_cnt;
 
-    wire sck_rise  = sck_s[1] & ~sck_s[2];
+    wire sck_rise  = ~sck_s[1] & sck_s[2];
     wire cs_active = ~cs_s[1];
 
     always @(posedge clk_50mhz) begin

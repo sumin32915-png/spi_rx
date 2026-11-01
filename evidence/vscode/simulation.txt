@@ -12,3 +12,14 @@ C:\Users\sumin\fpga\spi_rx\sim\tb_spi_rx.sv:73: $finish called at 74390000 (1ps)
 시뮬레이션 실행 완료. 진리표·자기검사·파형으로 회로의 정답 여부를 확인하세요.
 WAVE C:\Users\sumin\fpga\spi_rx\build\sim\wave.vcd
  *  Terminal will be reused by tasks, press any key to close it. 
+
+[2] FAIL 로그
+RUN C:\msys64\mingw64\bin\vvp.EXE -N C:\Users\sumin\fpga\spi_rx\build\sim\run-e7bf04ca098d470bb1bdca9751ee63bf\sim.vvp
+VCD info: dumpfile wave.vcd opened for output.
+FATAL: C:\Users\sumin\fpga\spi_rx\sim\tb_spi_rx.sv:54: SPI RX expected=55 uart=ab led=ab
+       Time: 13590000  Scope: tb.check_byte
+
+ERROR: 종료 코드 1: C:\Users\sumin\fpga\spi_rx\build\sim\run-e7bf04ca098d470bb1bdca9751ee63bf\simulation.log
+
+ *  The terminal process "C:\Users\sumin\AppData\Local\Microsoft\WindowsApps\python.EXE 'tools/fpga_lab.py', 'simulate'" terminated with exit code: 1. 
+ *  Terminal will be reused by tasks, press any key to close it. 
