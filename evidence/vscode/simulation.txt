@@ -1,0 +1,14 @@
+[1] PASS 로그
+RUN C:\msys64\mingw64\bin\vvp.EXE -N C:\Users\sumin\fpga\spi_rx\build\sim\run-265dc3308a82414eb9b4c2323b4c06c3\sim.vvp
+VCD info: dumpfile wave.vcd opened for output.
+RX 55 -> UART 55, LED 55
+RX a5 -> UART a5, LED a5
+RX 00 -> UART 00, LED 00
+RX ff -> UART ff, LED ff
+RX 3c -> UART 3c, LED 3c
+PASS SPI RX: 55 A5 00 FF, CS reset, UART echo checks=5
+C:\Users\sumin\fpga\spi_rx\sim\tb_spi_rx.sv:73: $finish called at 74390000 (1ps)
+
+시뮬레이션 실행 완료. 진리표·자기검사·파형으로 회로의 정답 여부를 확인하세요.
+WAVE C:\Users\sumin\fpga\spi_rx\build\sim\wave.vcd
+ *  Terminal will be reused by tasks, press any key to close it. 

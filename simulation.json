@@ -1,0 +1,5 @@
+{
+  "sources": ["src/spi_slave_rx.v", "src/uart_tx.v", "src/spi_rx_uart.v"],
+  "testbench": "sim/tb_spi_rx.sv",
+  "simulation_top": "tb"
+}
