@@ -1,0 +1,12 @@
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:07 ; elapsed = 00:00:15 . Memory (MB): peak = 1767.246 ; gain = 0.000
+run all
+RX 55 -> UART 55, LED 55
+RX a5 -> UART a5, LED a5
+RX 00 -> UART 00, LED 00
+RX ff -> UART ff, LED ff
+RX 3c -> UART 3c, LED 3c
+PASS SPI RX: 55 A5 00 FF, CS reset, UART echo checks=5
+$finish called at time : 74390 ns : File "C:/Users/sumin/fpga/spi_rx/sim/tb_spi_rx.sv" Line 73
